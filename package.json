@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "handoff-seal",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
     "preseal": "pnpm --filter @handoffseal/core build && pnpm --filter @handoffseal/runner build && pnpm --filter @handoffseal/cli build",
     "seal": "node packages/cli/dist/index.js"
   },
+  "license": "MIT",
   "engines": {
     "node": ">=20"
   },
